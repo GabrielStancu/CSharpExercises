@@ -59,8 +59,14 @@ namespace CSharpExercises
             //ConcurrentCollectionsDemo concurrentCollectionsDemo = new ConcurrentCollectionsDemo();
             //concurrentCollectionsDemo.Run();
 
-            ProcessDemo processDemo = new ProcessDemo();
-            processDemo.Run();
+            //ProcessDemo processDemo = new ProcessDemo();
+            //processDemo.Run();
+
+            //DynamicDemo dynamicDemo = new DynamicDemo();
+            //dynamicDemo.Run();
+
+            AssemblyDemo assemblyDemo = new AssemblyDemo();
+            assemblyDemo.Run();
         }
     }
 }

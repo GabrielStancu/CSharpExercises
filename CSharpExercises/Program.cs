@@ -10,54 +10,57 @@ namespace CSharpExercises
     {
         static void Main(string[] args)
         {
-            BinaryLiteralsAndDigitSeparators binaryLiteralsAndDigitSeparators = new BinaryLiteralsAndDigitSeparators();
-            binaryLiteralsAndDigitSeparators.Run();
+            //BinaryLiteralsAndDigitSeparators binaryLiteralsAndDigitSeparators = new BinaryLiteralsAndDigitSeparators();
+            //binaryLiteralsAndDigitSeparators.Run();
 
-            RefLocalsAndReturns refLocalsAndReturns = new RefLocalsAndReturns();
-            refLocalsAndReturns.Run();
+            //RefLocalsAndReturns refLocalsAndReturns = new RefLocalsAndReturns();
+            //refLocalsAndReturns.Run();
 
-            Deconstruction deconstruction = new Deconstruction();
-            deconstruction.Run();
+            //Deconstruction deconstruction = new Deconstruction();
+            //deconstruction.Run();
 
-            PatternMatching patternMatching = new PatternMatching();
-            patternMatching.Run();
+            //PatternMatching patternMatching = new PatternMatching();
+            //patternMatching.Run();
 
-            Tuples tuples = new Tuples();
-            tuples.Run();
+            //Tuples tuples = new Tuples();
+            //tuples.Run();
 
-            Cryptography cryptography = new Cryptography();
-            cryptography.Run();
+            //Cryptography cryptography = new Cryptography();
+            //cryptography.Run();
 
-            DelegateTrial delegateTrial = new DelegateTrial();
-            delegateTrial.Run();
+            //DelegateTrial delegateTrial = new DelegateTrial();
+            //delegateTrial.Run();
 
-            EventDemo eventDemo = new EventDemo();
-            eventDemo.Run();
+            //EventDemo eventDemo = new EventDemo();
+            //eventDemo.Run();
 
-            string myName = "gabi";
-            myName = myName.CapitalizeFirstLetter();
-            Console.WriteLine(myName);
+            //string myName = "gabi";
+            //myName = myName.CapitalizeFirstLetter();
+            //Console.WriteLine(myName);
 
-            DelegateExpressionBodiedEventDemo delegateExpressionBodiedEventDemo = new DelegateExpressionBodiedEventDemo(12, 5);
-            delegateExpressionBodiedEventDemo.DisplayEndMessage();
+            //DelegateExpressionBodiedEventDemo delegateExpressionBodiedEventDemo = new DelegateExpressionBodiedEventDemo(12, 5);
+            //delegateExpressionBodiedEventDemo.DisplayEndMessage();
 
-            NullableTypes nullableTypes = new NullableTypes();
-            nullableTypes.Run();
+            //NullableTypes nullableTypes = new NullableTypes();
+            //nullableTypes.Run();
 
-            LinqInit linqInit = new LinqInit();
-            linqInit.Run();
+            //LinqInit linqInit = new LinqInit();
+            //linqInit.Run();
 
-            ThreadsDemo threadsDemo = new ThreadsDemo();
-            threadsDemo.Run();
+            //ThreadsDemo threadsDemo = new ThreadsDemo();
+            //threadsDemo.Run();
 
-            TasksDemo tasksDemo = new TasksDemo();
-            tasksDemo.Run();
+            //TasksDemo tasksDemo = new TasksDemo();
+            //tasksDemo.Run();
 
-            AsyncAwaitDemo asyncAwaitDemo = new AsyncAwaitDemo();
-            asyncAwaitDemo.Run();
+            //AsyncAwaitDemo asyncAwaitDemo = new AsyncAwaitDemo();
+            //asyncAwaitDemo.Run();
 
-            ConcurrentCollectionsDemo concurrentCollectionsDemo = new ConcurrentCollectionsDemo();
-            concurrentCollectionsDemo.Run();
+            //ConcurrentCollectionsDemo concurrentCollectionsDemo = new ConcurrentCollectionsDemo();
+            //concurrentCollectionsDemo.Run();
+
+            ProcessDemo processDemo = new ProcessDemo();
+            processDemo.Run();
         }
     }
 }

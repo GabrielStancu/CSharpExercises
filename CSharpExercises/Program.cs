@@ -65,8 +65,11 @@ namespace CSharpExercises
             //DynamicDemo dynamicDemo = new DynamicDemo();
             //dynamicDemo.Run();
 
-            AssemblyDemo assemblyDemo = new AssemblyDemo();
-            assemblyDemo.Run();
+            //AssemblyDemo assemblyDemo = new AssemblyDemo();
+            //assemblyDemo.Run();
+
+            AttributesDemo attributesDemo = new AttributesDemo();
+            attributesDemo.Run();
         }
     }
 }

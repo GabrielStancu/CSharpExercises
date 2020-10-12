@@ -8,6 +8,11 @@ namespace CSharpExercises
     
     class Program
     {
+        /// <summary>
+        /// Decomment the functionality yoou want to run
+        /// i.e. the instantiation and the call of the Run() method
+        /// </summary>
+        /// <param name="args">Not used for anything so far</param>
         static void Main(string[] args)
         {
             //BinaryLiteralsAndDigitSeparators binaryLiteralsAndDigitSeparators = new BinaryLiteralsAndDigitSeparators();
@@ -68,8 +73,26 @@ namespace CSharpExercises
             //AssemblyDemo assemblyDemo = new AssemblyDemo();
             //assemblyDemo.Run();
 
-            AttributesDemo attributesDemo = new AttributesDemo();
-            attributesDemo.Run();
+            //AttributesDemo attributesDemo = new AttributesDemo();
+            //attributesDemo.Run();
+
+            //SerializationDemo serializationDemo = new SerializationDemo();
+            //serializationDemo.Run();
+
+            //GuidDemo guidDemo = new GuidDemo();
+            //guidDemo.Run();
+
+            //PatternMatchingDemo patternMatching = new PatternMatchingDemo();
+            //patternMatching.Run();
+
+            //RefLocalRefReturnDemo refLocalRefReturnDemo = new RefLocalRefReturnDemo();
+            //refLocalRefReturnDemo.Run();
+
+            //IEnumerableDemo enumerableDemo = new IEnumerableDemo();
+            //enumerableDemo.Run();
+
+            YieldDemo yieldDemo = new YieldDemo();
+            yieldDemo.Run();
         }
     }
 }
